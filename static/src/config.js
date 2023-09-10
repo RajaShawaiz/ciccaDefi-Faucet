@@ -1,6 +1,6 @@
 
 const config = {
-  apiurl: "http://localhost:3000",
+  apiurl: "http://13.48.147.139:4800",
   etherscanroot: "http://ropsten.etherscan.io",
   accesskey: require("./accesskey.json").key
 };
