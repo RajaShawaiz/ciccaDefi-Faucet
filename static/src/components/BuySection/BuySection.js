@@ -98,7 +98,7 @@ const BuySection = ({ onQueued }) => {
                     placeholder='Wallet address'
                 />
             </div>
-            <ReCAPTCHA sitekey="6Ld-uQcoAAAAAP_ahCGF3K0ZCcBCSZUGJM2Fc8bY" onChange={handleChange} />
+            <ReCAPTCHA sitekey="6LcvgBUoAAAAAOP7SlX82DQrXuYfNqNND6pD-Tyz" onChange={handleChange} />
             <button
             onClick={submit}
             disabled={!cansubmit }
