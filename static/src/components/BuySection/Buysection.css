@@ -2,6 +2,7 @@
     width: 50%;
     /* min-height: 400px; */
     height: auto;
+    /* max-height: 40vh; */
     background-color: rgba(255, 255, 255, 0.782);
     border-radius: 16px;
     box-sizing: border-box;
@@ -11,6 +12,7 @@
     justify-content: flex-start;
     flex-direction: column;
     gap: 16px;
+   /* margin-bottom: 100px; */
 
 }
 .input-container{
@@ -63,4 +65,31 @@
 }
 .submit:disabled{
     cursor: not-allowed;
+}
+@media screen and (max-width: 900px){
+    .section{
+        width: 90%;
+    }
+    .icons a img{
+        width: 30px;
+        height: 30px;
+    
+    }
+}
+@media screen and (max-width: 1200px){
+    /* .section{
+        width: 90%;
+    } */
+    .icons a img{
+        width: 30px;
+        height: 30px;
+    
+    }
+    .input{
+        font-size: 16px;
+    }
+    .submit{
+        padding: 8px;
+        font-size: 14px;
+    }
 }
