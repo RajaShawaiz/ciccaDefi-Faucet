@@ -4,18 +4,18 @@ import Logo from '../../assets/logo.png'
 import Metamask from '../../assets/metamask.png'
 const Navbar = () => {
     const addChain=()=>{
-        console.log( `0x${Number(8998).toString(16)}`);
+        console.log( `0x${Number(21014).toString(16)}`);
         window.ethereum.request({
             method: 'wallet_addEthereumChain',
             params: [{
-            chainId: '0x38',
-            chainName: 'Binance Smart Chain',
+            chainId: '21014',
+            chainName: 'Cicca Testnet',
             nativeCurrency: {
-                name: 'Binance Coin',
-                symbol: 'BNB',
+                name: 'Cicca Defi',
+                symbol: 'CICCA',
                 decimals: 18
             },
-            rpcUrls: ['https://bsc-dataseed.binance.org/'],
+            rpcUrls: ['http://51.20.5.97:8545'],
             blockExplorerUrls: ['https://bscscan.com']
             }]
             })
